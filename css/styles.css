@@ -45,19 +45,37 @@ span{color: red!important}
 }
 */
 
+
 html {
 font-size: 62.5%;
 }
 body{
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.titulo{color: red;
+.titulo{color: black;
 text-align: center;
-font-family: Arial, Helvetica, sans-serif;  }
+font-family: Arial, Helvetica, sans-serif;
+ }
 
 .subtitulo{color: brown;}
 
-.titulo span {color: violet;}
+ul {text-align: right;}
 
-ul{text-align: right;}
+.titulo span{font-size: 2rem;
+color: black;}
 
+.propuesta{
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    }
+
+ h2{ 
+text-align: center;}
+
+.carta {color: brown;
+text-align: right;}
+.sobreNosotros{
+    font-size: 1.5rem;
+}
