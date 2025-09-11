@@ -1,5 +1,63 @@
-h1{color: red;
-text-align: center;  }
+/*width  : ancho 
+text-align: left center right
+fontsize: px - em -rem 
+1rem = 10px
+krub
+h1 span 
+-------------------------------------------------------------------------------------------
+SELECTROES CSS
 
+h1{} SELECCIONA TODO LOS ELEMENTOS
+
+SELECTOR CLASE
+
+.class{}
+
+SELECTOR ID
+#class{}
+
+SELECTOR ATRIBUTO
+[src="logo.jpg"]]{}
+
+etc-----------------------------------------
+
+
+ESPECIFICIDAD
+CSS es cascasda
+
+Se mostrara por la prioridad que le des
+
+
+
+h1.titulo span
+
+.titulo span
+
+span
+
+
+MAYOR PRIORIDAD
+span{color: red!important}
+
+:root{ CUSTOM
+--blanco : fffff;
+-> color: var(--blanco);
+}
+*/
+
+html {
+font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+.titulo{color: red;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;  }
+
+.subtitulo{color: brown;}
+
+.titulo span {color: violet;}
 
 ul{text-align: right;}
+
