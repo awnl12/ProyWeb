@@ -97,3 +97,39 @@ text-align: center;}
     background-position: auto;
 }
 
+.navbar {
+ display: flex;   
+justify-content: space-between;
+ align-items: center;
+ background-color: #5a2d2d;
+ gap: 20px;
+padding: 10px 20px;
+}
+
+
+.navbarCarta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+gap: 20px;
+padding: 10px 20px;
+}
+
+.navbarReserva{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+padding: 10px 20px;
+}
+
+.navbarLocales{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+padding: 10px 20px;
+background-color: #562a23;
+}
+
+
