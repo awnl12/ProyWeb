@@ -158,3 +158,31 @@ display: flex;
     align-items: center;
     border: 3px solid black;
 }
+
+.backPropuesta{
+    background-color: tomato;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;   
+}
+
+.backNosotros{
+    background-color: burlywood;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+   
+}   
+
+.backFooter{
+    background-color: #562a23;
+    overflow: hidden;
+
+}
+
+.backFooter fieldset{
+align-items: center;
+text-align: center;
+justify-content: space-between;
+border: 2px solid black;
+}
