@@ -5,6 +5,9 @@ body{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* =========== INICIO ================*/
 .navbar {
   background-color: rgba(90, 45, 45, 0.9);
   padding: 15px 30px;
@@ -22,13 +25,13 @@ body{
 }
 
 .titulo {
-  color: white;
+  color: rgb(232, 232, 232);
   font-size: 2.5rem;
   font-weight: bold;
 }
 
 .titulo span {
-  color: #ffb347;
+  color: #c70f0f;
   font-size: 1.5rem;
 }
 
@@ -65,15 +68,6 @@ body{
   height: 100%;
   object-fit: cover;
 }
-.backPropuesta {
-  background: #fff3e0; 
-  padding: 60px 20px;
-}
-
-.backNosotros {
-  background: #fce4ec; 
-  padding: 60px 20px;
-}
 
 h2 {
   font-size: 2.4rem;
@@ -90,21 +84,22 @@ h2 {
 }
 
 
+/* ================== FOOTER ============ */
 
 .contact-section {
-  background: #f9f9f9;
+  background: #5f1a1a;
   padding: 40px 20px;
   text-align: center;
   font-family: Arial, sans-serif;
 }
 
 .contact-section h2 {
-  color: #333;
+  color: white;
   margin-bottom: 10px;
 }
 
 .contact-section p {
-  color: #555;
+  color: white;
   margin-bottom: 30px;
 }
 
@@ -133,7 +128,7 @@ h2 {
 
 .contact-form button {
   padding: 14px;
-  background: #ff6600;
+  background: #843636;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -145,15 +140,28 @@ h2 {
 .contact-form button:hover {
   background: #e05500;
 }
+
+
+/* Background Propuesta / Mosotrs */
+
+
 .backPropuesta {
   background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
   padding: 60px 20px;
+}
+
+.backPropuesta p, .backNosotros p {
+line-height: 3;
 }
 
 .backNosotros {
   background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
   padding: 60px 20px;
 }
+
+
+
+
 h2 {
   font-size: 2.6rem;
   margin-bottom: 20px;
